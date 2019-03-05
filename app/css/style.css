@@ -1,7 +1,50 @@
-body {
-  background-color: red;
-  color: #fff;
-  -webkit-transform: translateY(50px);
-  transform: translateY(50px);
-  transform-font-family: tahoma, sans-serif;
+.navbar {
+  background: #F97300;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #f4f4f4;
+  cursor: pointer;
+}
+
+.nav-link {
+  margin-right: 1em !important;
+}
+
+.nav-link:hover {
+  background: #f4f4f4;
+  color: #f97300;
+  border-radius: 50%;
+}
+
+.navbar-collapse {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.navbar-toggler {
+  background: #fff !important;
+}
+
+.navbar-collapse {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.bg-dark {
+  background-color: #343a40 !important;
+}
+
+.bg-primary {
+  background-color: #343a40 !important;
+}
+
+.header {
+  background-attachment: fixed;
+  background: #F97300;
+  background-size: cover;
+  background-position: center;
 }
